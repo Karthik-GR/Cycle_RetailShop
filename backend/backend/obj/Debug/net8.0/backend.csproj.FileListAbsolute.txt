@@ -175,3 +175,4 @@ C:\Users\kagur\Desktop\Cycle Retail\backend\backend\bin\Debug\net8.0\Npgsql.Enti
 C:\Users\kagur\Desktop\Cycle Retail\backend\backend\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll
 C:\Users\kagur\Desktop\Cycle Retail\backend\backend\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
 C:\Users\kagur\Desktop\Cycle Retail\backend\backend\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\kagur\Desktop\Cycle Retail\backend\backend\obj\Debug\net8.0\backend.sourcelink.json

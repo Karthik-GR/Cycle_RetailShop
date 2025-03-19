@@ -20,7 +20,9 @@
         public decimal Price { get; set; }
         public int StockQuantity { get; set; }
         public IFormFile? ImageFile { get; set; }
+        //public List<string>? Colors { get; set; } 
     }
+
 
     public class InventoryUpdateDto
     {

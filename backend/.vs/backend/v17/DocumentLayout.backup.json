@@ -3,28 +3,84 @@
   "WorkspaceRootPath": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|c:\\users\\kagur\\desktop\\cycle retail\\backend\\backend\\migrations\\20250319094421_newmigration6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|solutionrelative:backend\\migrations\\20250319094421_newmigration6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|c:\\users\\kagur\\desktop\\cycle retail\\backend\\backend\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|solutionrelative:backend\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|c:\\users\\kagur\\desktop\\cycle retail\\backend\\backend\\controllers\\cyclebrandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|solutionrelative:backend\\controllers\\cyclebrandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|c:\\users\\kagur\\desktop\\cycle retail\\backend\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|solutionrelative:backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|c:\\users\\kagur\\desktop\\cycle retail\\backend\\backend\\controllers\\cycletypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|solutionrelative:backend\\controllers\\cycletypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|c:\\users\\kagur\\desktop\\cycle retail\\backend\\backend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|solutionrelative:backend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|c:\\users\\kagur\\desktop\\cycle retail\\backend\\backend\\dto\\inventory_dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|solutionrelative:backend\\dto\\inventory_dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|c:\\users\\kagur\\desktop\\cycle retail\\backend\\backend\\models\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|solutionrelative:backend\\models\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|c:\\users\\kagur\\desktop\\cycle retail\\backend\\backend\\dto\\inventory_dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|solutionrelative:backend\\dto\\inventory_dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|c:\\users\\kagur\\desktop\\cycle retail\\backend\\backend\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|solutionrelative:backend\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|c:\\users\\kagur\\desktop\\cycle retail\\backend\\backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|solutionrelative:backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|c:\\users\\kagur\\desktop\\cycle retail\\backend\\backend\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|solutionrelative:backend\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|c:\\users\\kagur\\desktop\\cycle retail\\backend\\backend\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|solutionrelative:backend\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|c:\\users\\kagur\\desktop\\cycle retail\\backend\\backend\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|solutionrelative:backend\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|c:\\users\\kagur\\desktop\\cycle retail\\backend\\backend\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|solutionrelative:backend\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|c:\\users\\kagur\\desktop\\cycle retail\\backend\\backend\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|solutionrelative:backend\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|c:\\users\\kagur\\desktop\\cycle retail\\backend\\backend\\dto\\register_dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|solutionrelative:backend\\dto\\register_dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|c:\\users\\kagur\\desktop\\cycle retail\\backend\\backend\\dto\\updateduser_dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|solutionrelative:backend\\dto\\updateduser_dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|c:\\users\\kagur\\desktop\\cycle retail\\backend\\backend\\controllers\\cycletypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|solutionrelative:backend\\controllers\\cycletypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|c:\\users\\kagur\\desktop\\cycle retail\\backend\\backend\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|solutionrelative:backend\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|c:\\users\\kagur\\desktop\\cycle retail\\backend\\backend\\dto\\forgotpassword_dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|solutionrelative:backend\\dto\\forgotpassword_dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|c:\\users\\kagur\\desktop\\cycle retail\\backend\\backend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|solutionrelative:backend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|c:\\users\\kagur\\desktop\\cycle retail\\backend\\backend\\models\\imagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|solutionrelative:backend\\models\\imagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|c:\\users\\kagur\\desktop\\cycle retail\\backend\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|solutionrelative:backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|c:\\users\\kagur\\desktop\\cycle retail\\backend\\backend\\dto\\login_dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,38 +89,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|c:\\users\\kagur\\desktop\\cycle retail\\backend\\backend\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|solutionrelative:backend\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|c:\\users\\kagur\\desktop\\cycle retail\\backend\\backend\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|solutionrelative:backend\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|c:\\users\\kagur\\desktop\\cycle retail\\backend\\backend\\models\\imagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|solutionrelative:backend\\models\\imagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|c:\\users\\kagur\\desktop\\cycle retail\\backend\\backend\\dto\\updateduser_dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|solutionrelative:backend\\dto\\updateduser_dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|c:\\users\\kagur\\desktop\\cycle retail\\backend\\backend\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|solutionrelative:backend\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|c:\\users\\kagur\\desktop\\cycle retail\\backend\\backend\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|solutionrelative:backend\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|c:\\users\\kagur\\desktop\\cycle retail\\backend\\backend\\dto\\register_dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|solutionrelative:backend\\dto\\register_dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|c:\\users\\kagur\\desktop\\cycle retail\\backend\\backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|solutionrelative:backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|c:\\users\\kagur\\desktop\\cycle retail\\backend\\backend\\dto\\forgotpassword_dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|solutionrelative:backend\\dto\\forgotpassword_dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|c:\\users\\kagur\\desktop\\cycle retail\\backend\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -85,6 +109,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|c:\\users\\kagur\\desktop\\cycle retail\\backend\\backend\\migrations\\20250313122901_migratenew3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|solutionrelative:backend\\migrations\\20250313122901_migratenew3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|c:\\users\\kagur\\desktop\\cycle retail\\backend\\backend\\migrations\\20250317113515_newmigration1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|solutionrelative:backend\\migrations\\20250317113515_newmigration1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|c:\\users\\kagur\\desktop\\cycle retail\\backend\\backend\\migrations\\20250317113010_newmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|solutionrelative:backend\\migrations\\20250317113010_newmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|c:\\users\\kagur\\desktop\\cycle retail\\backend\\backend\\migrations\\20250318114731_newmigration2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79470D53-D335-45DD-AEC6-55DCA7F918DC}|backend\\backend.csproj|solutionrelative:backend\\migrations\\20250318114731_newmigration2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -93,98 +129,38 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 313,
+          "DockedWidth": 298,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "20250319094421_NewMigration6.cs",
+              "DocumentMoniker": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Migrations\\20250319094421_NewMigration6.cs",
+              "RelativeDocumentMoniker": "backend\\Migrations\\20250319094421_NewMigration6.cs",
+              "ToolTip": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Migrations\\20250319094421_NewMigration6.cs",
+              "RelativeToolTip": "backend\\Migrations\\20250319094421_NewMigration6.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T09:44:22.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "CycleBrandController.cs",
               "DocumentMoniker": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Controllers\\CycleBrandController.cs",
               "RelativeDocumentMoniker": "backend\\Controllers\\CycleBrandController.cs",
               "ToolTip": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Controllers\\CycleBrandController.cs",
               "RelativeToolTip": "backend\\Controllers\\CycleBrandController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAqwEYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCcAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-13T10:11:58.059Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\appsettings.json",
-              "RelativeDocumentMoniker": "backend\\appsettings.json",
-              "ToolTip": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\appsettings.json",
-              "RelativeToolTip": "backend\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-27T06:55:21.238Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Program.cs",
-              "RelativeDocumentMoniker": "backend\\Program.cs",
-              "ToolTip": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Program.cs",
-              "RelativeToolTip": "backend\\Program.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAuwCwAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T06:51:48.218Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "backend\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "backend\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T06:53:44.937Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Inventory_dto.cs",
-              "DocumentMoniker": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\DTO\\Inventory_dto.cs",
-              "RelativeDocumentMoniker": "backend\\DTO\\Inventory_dto.cs",
-              "ToolTip": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\DTO\\Inventory_dto.cs",
-              "RelativeToolTip": "backend\\DTO\\Inventory_dto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T08:44:33.721Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "backend\\Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "backend\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABIAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T05:01:06.733Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "InventoryController.cs",
-              "DocumentMoniker": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Controllers\\InventoryController.cs",
-              "RelativeDocumentMoniker": "backend\\Controllers\\InventoryController.cs",
-              "ToolTip": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Controllers\\InventoryController.cs",
-              "RelativeToolTip": "backend\\Controllers\\InventoryController.cs",
-              "ViewState": "AgIAAJsAAAAAAAAAAAAlwLUAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T06:45:43.313Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 18,
               "Title": "ImageModel.cs",
               "DocumentMoniker": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Models\\ImageModel.cs",
               "RelativeDocumentMoniker": "backend\\Models\\ImageModel.cs",
@@ -196,7 +172,132 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Program.cs",
+              "RelativeDocumentMoniker": "backend\\Program.cs",
+              "ToolTip": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Program.cs",
+              "RelativeToolTip": "backend\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T06:51:48.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "backend\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Models\\Customer.cs",
+              "RelativeToolTip": "backend\\Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T10:03:11.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "backend\\Models\\Cart.cs",
+              "ToolTip": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Models\\Cart.cs",
+              "RelativeToolTip": "backend\\Models\\Cart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T11:45:47.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InventoryController.cs",
+              "DocumentMoniker": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Controllers\\InventoryController.cs",
+              "RelativeDocumentMoniker": "backend\\Controllers\\InventoryController.cs",
+              "ToolTip": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Controllers\\InventoryController.cs",
+              "RelativeToolTip": "backend\\Controllers\\InventoryController.cs",
+              "ViewState": "AgIAANQAAAAAAAAAAADwv9MAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T06:45:43.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "backend\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "backend\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T05:01:06.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Inventory_dto.cs",
+              "DocumentMoniker": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\DTO\\Inventory_dto.cs",
+              "RelativeDocumentMoniker": "backend\\DTO\\Inventory_dto.cs",
+              "ToolTip": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\DTO\\Inventory_dto.cs",
+              "RelativeToolTip": "backend\\DTO\\Inventory_dto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T08:44:33.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "backend\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "backend\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T06:53:44.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "20250317113515_NewMigration1.cs",
+              "DocumentMoniker": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Migrations\\20250317113515_NewMigration1.cs",
+              "RelativeDocumentMoniker": "backend\\Migrations\\20250317113515_NewMigration1.cs",
+              "ToolTip": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Migrations\\20250317113515_NewMigration1.cs",
+              "RelativeToolTip": "backend\\Migrations\\20250317113515_NewMigration1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T11:35:15.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "20250317113010_NewMigration.cs",
+              "DocumentMoniker": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Migrations\\20250317113010_NewMigration.cs",
+              "RelativeDocumentMoniker": "backend\\Migrations\\20250317113010_NewMigration.cs",
+              "ToolTip": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Migrations\\20250317113010_NewMigration.cs",
+              "RelativeToolTip": "backend\\Migrations\\20250317113010_NewMigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T11:30:11.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\appsettings.json",
+              "RelativeDocumentMoniker": "backend\\appsettings.json",
+              "ToolTip": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\appsettings.json",
+              "RelativeToolTip": "backend\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-27T06:55:21.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "20250313045212_migratenew1.cs",
               "DocumentMoniker": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Migrations\\20250313045212_migratenew1.cs",
               "RelativeDocumentMoniker": "backend\\Migrations\\20250313045212_migratenew1.cs",
@@ -208,7 +309,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 23,
               "Title": "backend.csproj",
               "DocumentMoniker": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\backend.csproj",
               "RelativeDocumentMoniker": "backend\\backend.csproj",
@@ -221,62 +322,38 @@
           ]
         },
         {
-          "DockedWidth": 287,
-          "SelectedChildIndex": 4,
+          "DockedWidth": 302,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Inventory.cs",
-              "DocumentMoniker": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Models\\Inventory.cs",
-              "RelativeDocumentMoniker": "backend\\Models\\Inventory.cs",
-              "ToolTip": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Models\\Inventory.cs",
-              "RelativeToolTip": "backend\\Models\\Inventory.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAkwCoAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 29,
+              "Title": "20250318114731_NewMigration2.cs",
+              "DocumentMoniker": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Migrations\\20250318114731_NewMigration2.cs",
+              "RelativeDocumentMoniker": "backend\\Migrations\\20250318114731_NewMigration2.cs",
+              "ToolTip": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Migrations\\20250318114731_NewMigration2.cs",
+              "RelativeToolTip": "backend\\Migrations\\20250318114731_NewMigration2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T08:49:47.543Z",
+              "WhenOpened": "2025-03-18T11:47:31.775Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Models\\User.cs",
-              "RelativeDocumentMoniker": "backend\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Models\\User.cs",
-              "RelativeToolTip": "backend\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "backend\\Models\\CartItem.cs",
+              "ToolTip": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Models\\CartItem.cs",
+              "RelativeToolTip": "backend\\Models\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T06:47:30.191Z",
+              "WhenOpened": "2025-03-18T11:45:58.784Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "backend\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "backend\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T06:24:47.408Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ImageController.cs",
-              "DocumentMoniker": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Controllers\\ImageController.cs",
-              "RelativeDocumentMoniker": "backend\\Controllers\\ImageController.cs",
-              "ToolTip": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Controllers\\ImageController.cs",
-              "RelativeToolTip": "backend\\Controllers\\ImageController.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAAwEwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T11:48:18.878Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 14,
               "Title": "CycleTypeController.cs",
               "DocumentMoniker": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Controllers\\CycleTypeController.cs",
               "RelativeDocumentMoniker": "backend\\Controllers\\CycleTypeController.cs",
@@ -284,60 +361,11 @@
               "RelativeToolTip": "backend\\Controllers\\CycleTypeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T10:11:45.854Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-13T10:11:45.854Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UpdatedUser_dto.cs",
-              "DocumentMoniker": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\DTO\\UpdatedUser_dto.cs",
-              "RelativeDocumentMoniker": "backend\\DTO\\UpdatedUser_dto.cs",
-              "ToolTip": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\DTO\\UpdatedUser_dto.cs",
-              "RelativeToolTip": "backend\\DTO\\UpdatedUser_dto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T06:27:51.1Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Login_dto.cs",
-              "DocumentMoniker": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\DTO\\Login_dto.cs",
-              "RelativeDocumentMoniker": "backend\\DTO\\Login_dto.cs",
-              "ToolTip": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\DTO\\Login_dto.cs",
-              "RelativeToolTip": "backend\\DTO\\Login_dto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T07:17:27.301Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "20250313124427_migratenew4.cs",
-              "DocumentMoniker": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Migrations\\20250313124427_migratenew4.cs",
-              "RelativeDocumentMoniker": "backend\\Migrations\\20250313124427_migratenew4.cs",
-              "ToolTip": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Migrations\\20250313124427_migratenew4.cs",
-              "RelativeToolTip": "backend\\Migrations\\20250313124427_migratenew4.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T12:44:27.325Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "20250313122901_migratenew3.cs",
-              "DocumentMoniker": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Migrations\\20250313122901_migratenew3.cs",
-              "RelativeDocumentMoniker": "backend\\Migrations\\20250313122901_migratenew3.cs",
-              "ToolTip": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Migrations\\20250313122901_migratenew3.cs",
-              "RelativeToolTip": "backend\\Migrations\\20250313122901_migratenew3.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T12:29:01.728Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "Register_dto.cs",
               "DocumentMoniker": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\DTO\\Register_dto.cs",
               "RelativeDocumentMoniker": "backend\\DTO\\Register_dto.cs",
@@ -349,7 +377,70 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 9,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "backend\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "backend\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T06:24:47.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Inventory.cs",
+              "DocumentMoniker": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Models\\Inventory.cs",
+              "RelativeDocumentMoniker": "backend\\Models\\Inventory.cs",
+              "ToolTip": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Models\\Inventory.cs",
+              "RelativeToolTip": "backend\\Models\\Inventory.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAuwCAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T08:49:47.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "backend\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Controllers\\CartController.cs",
+              "RelativeToolTip": "backend\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T11:47:05.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "backend\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "backend\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA9wFEAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T10:20:19.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UpdatedUser_dto.cs",
+              "DocumentMoniker": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\DTO\\UpdatedUser_dto.cs",
+              "RelativeDocumentMoniker": "backend\\DTO\\UpdatedUser_dto.cs",
+              "ToolTip": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\DTO\\UpdatedUser_dto.cs",
+              "RelativeToolTip": "backend\\DTO\\UpdatedUser_dto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T06:27:51.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "ForgotPassword_dto.cs",
               "DocumentMoniker": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\DTO\\ForgotPassword_dto.cs",
               "RelativeDocumentMoniker": "backend\\DTO\\ForgotPassword_dto.cs",
@@ -358,6 +449,66 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-11T06:54:38.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ImageController.cs",
+              "DocumentMoniker": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Controllers\\ImageController.cs",
+              "RelativeDocumentMoniker": "backend\\Controllers\\ImageController.cs",
+              "ToolTip": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Controllers\\ImageController.cs",
+              "RelativeToolTip": "backend\\Controllers\\ImageController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAwEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T11:48:18.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Models\\User.cs",
+              "RelativeDocumentMoniker": "backend\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Models\\User.cs",
+              "RelativeToolTip": "backend\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T06:47:30.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Login_dto.cs",
+              "DocumentMoniker": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\DTO\\Login_dto.cs",
+              "RelativeDocumentMoniker": "backend\\DTO\\Login_dto.cs",
+              "ToolTip": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\DTO\\Login_dto.cs",
+              "RelativeToolTip": "backend\\DTO\\Login_dto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T07:17:27.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20250313124427_migratenew4.cs",
+              "DocumentMoniker": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Migrations\\20250313124427_migratenew4.cs",
+              "RelativeDocumentMoniker": "backend\\Migrations\\20250313124427_migratenew4.cs",
+              "ToolTip": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Migrations\\20250313124427_migratenew4.cs",
+              "RelativeToolTip": "backend\\Migrations\\20250313124427_migratenew4.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T12:44:27.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "20250313122901_migratenew3.cs",
+              "DocumentMoniker": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Migrations\\20250313122901_migratenew3.cs",
+              "RelativeDocumentMoniker": "backend\\Migrations\\20250313122901_migratenew3.cs",
+              "ToolTip": "C:\\Users\\kagur\\Desktop\\Cycle Retail\\backend\\backend\\Migrations\\20250313122901_migratenew3.cs",
+              "RelativeToolTip": "backend\\Migrations\\20250313122901_migratenew3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T12:29:01.728Z"
             }
           ]
         }

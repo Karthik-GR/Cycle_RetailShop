@@ -30,6 +30,8 @@ namespace backend.Models
         [Required]
         public byte[] ImageFile { get; set; }
 
+        //public string Colors { get; set; }
+
     }
 
     public class Brand
