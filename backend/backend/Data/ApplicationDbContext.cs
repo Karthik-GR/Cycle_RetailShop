@@ -12,17 +12,9 @@ namespace backend.Data
         public DbSet<User> Users { get; set; }
         public DbSet<Inventory> Inventories { get; set; }
         public DbSet<ImageModel> Images { get; set; }
+
         public DbSet<Brand> CycleBrands { get; set; }
         public DbSet<CycleType> CycleTypes { get; set; }
-        public DbSet<Customer> Customers { get; set; }
-        public DbSet<Accessory> Accessories { get; set; }
-
-        public DbSet<Product> Products { get; set; }
-
-        public DbSet<Cart> Carts { get; set; }
-        public DbSet<CartItem> CartItems { get; set; }
-        public DbSet<Order> Orders { get; set; }
-        public DbSet<OrderItem> OrderItems { get; set; }
 
     }
 }

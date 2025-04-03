@@ -30,30 +30,9 @@ namespace backend.Controllers
             return await _context.Users.ToListAsync();
         }
 
-        //[HttpPatch("{id}")]
-        //[Authorize(Roles = "Admin")]
-        //public async Task<IActionResult> UpdateEmployee(int id, [FromBody] UpdatedUser_dto updatedUserDto)
-        //{
-        //    var user = await _context.Users.FindAsync(id);
-        //    if (user == null)
-        //    {
-        //        return NotFound(new { message = "Employee not found" });
-        //    }
-
-        //    if (!string.IsNullOrEmpty(updatedUserDto.Username)) user.Username = updatedUserDto.Username;
-        //    if (!string.IsNullOrEmpty(updatedUserDto.Password)) user.Password = updatedUserDto.Password;
-        //    if (!string.IsNullOrEmpty(updatedUserDto.Email)) user.email = updatedUserDto.Email;
-        //    if (!string.IsNullOrEmpty(updatedUserDto.Role)) user.Role = updatedUserDto.Role;
-
-        //    _context.Users.Update(user);
-        //    await _context.SaveChangesAsync();
-
-        //    return Ok(new { message = "Employee updated successfully", user });
-        //}
-
         [HttpPatch("{id}")]
         [Authorize(Roles = "Admin")]
-        public async Task<IActionResult> UpdateEmployee(int id, [FromForm] UpdatedUser_dto updatedUserDto)
+        public async Task<IActionResult> UpdateEmployee(int id, [FromBody] UpdatedUser_dto updatedUserDto)
         {
             var user = await _context.Users.FindAsync(id);
             if (user == null)
@@ -66,15 +45,6 @@ namespace backend.Controllers
             if (!string.IsNullOrEmpty(updatedUserDto.Email)) user.email = updatedUserDto.Email;
             if (!string.IsNullOrEmpty(updatedUserDto.Role)) user.Role = updatedUserDto.Role;
 
-            if (updatedUserDto.ImageFile != null)
-            {
-                using (var memoryStream = new MemoryStream())
-                {
-                    await updatedUserDto.ImageFile.CopyToAsync(memoryStream);
-                    user.ImageFile = memoryStream.ToArray();
-                }
-            }
-
             _context.Users.Update(user);
             await _context.SaveChangesAsync();
 
@@ -82,8 +52,8 @@ namespace backend.Controllers
         }
 
 
-        [HttpDelete("{id}")]
 
+        [HttpDelete("{id}")]
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> DeleteEmployee(int id)
         {

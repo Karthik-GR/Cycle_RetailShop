@@ -9,8 +9,6 @@ namespace backend.Models
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int UserId { get; set; }
 
-        public byte[]? ImageFile { get; set; }
-
         [Required]    
         public string email { get; set; }
 
@@ -19,6 +17,7 @@ namespace backend.Models
 
         [Required]  
         public string Password { get; set; }
+
 
         public string Role { get; set; } 
 
