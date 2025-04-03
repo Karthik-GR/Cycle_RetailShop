@@ -1,15 +1,19 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using backend.Data;
 using backend.Models;
-using Microsoft.EntityFrameworkCore;
+using backend.DTO;
+using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace backend.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class CartController : ControllerBase
     {
         private readonly ApplicationDbContext _context;
@@ -19,75 +23,160 @@ namespace backend.Controllers
             _context = context;
         }
 
-        // GET: api/Cart
-        // For demonstration, this returns the first available cart.
-        // In a production scenario, you'd link carts to users.
         [HttpGet]
-        [Authorize(Roles = "Admin,Employee,Customer")]
-        public async Task<ActionResult<Cart>> GetCart()
+        public async Task<ActionResult<IEnumerable<CartItem>>> GetCartItems()
         {
-            var cart = await _context.Carts
-                .Include(c => c.Items)
-                .ThenInclude(ci => ci.Inventory)
-                .FirstOrDefaultAsync();
+            var username = User.Identity.Name;
+            var cartItems = await _context.CartItems
+                                          .Include(ci => ci.Product) // Updated to Product
+                                          .Where(ci => ci.Cart.Username == username)
+                                          .ToListAsync();
+            return Ok(cartItems);
+        }
 
+        [HttpPost("add")]
+        public async Task<IActionResult> AddCartItem([FromBody] CartItemDto cartItemDto)
+        {
+            var username = User.Identity.Name;
+            var cart = await _context.Carts.FirstOrDefaultAsync(c => c.Username == username);
             if (cart == null)
             {
-                // Create a new cart if none exists.
-                cart = new Cart();
+                cart = new Cart
+                {
+                    Username = username,
+                    CartItems = new List<CartItem>()
+                };
                 _context.Carts.Add(cart);
                 await _context.SaveChangesAsync();
             }
-            return Ok(cart);
+
+            var cartItem = new CartItem
+            {
+                ProductId = cartItemDto.ProductId, // Changed from InventoryId
+                Quantity = cartItemDto.Quantity,
+                CartId = cart.CartId
+            };
+
+            _context.CartItems.Add(cartItem);
+            await _context.SaveChangesAsync();
+
+            return Ok(new { message = "Item added to cart", cartItem });
         }
 
-        // POST: api/Cart/AddItem
-        [HttpPost("AddItem")]
-        [Authorize(Roles = "Admin,Employee,Customer")]
-        public async Task<ActionResult<CartItem>> AddItemToCart([FromBody] CartItem newItem)
+        [HttpPost("placeOrder")]
+        public async Task<IActionResult> PlaceOrder([FromBody] OrderPlacementDto orderDto)
         {
-            // For simplicity, using the first cart.
-            var cart = await _context.Carts.FirstOrDefaultAsync();
-            if (cart == null)
+            var customer = await _context.Customers.FirstOrDefaultAsync(c => c.phoneNumber == orderDto.CustomerPhone);
+            if (customer == null)
             {
-                cart = new Cart();
-                _context.Carts.Add(cart);
-                await _context.SaveChangesAsync();
+                return BadRequest(new { error = "Invalid customer phone number" });
             }
-            newItem.CartId = cart.CartId;
-            _context.CartItems.Add(newItem);
+
+            var username = User.Identity.Name;
+            var cart = await _context.Carts.Include(c => c.CartItems)
+                                           .FirstOrDefaultAsync(c => c.Username == username);
+            if (cart == null || !cart.CartItems.Any())
+            {
+                return BadRequest(new { error = "Cart is empty" });
+            }
+
+            var order = new Order
+            {
+                CustomerId = customer.customerId,
+                OrderDate = DateTime.UtcNow,
+                Status = OrderStatus.Pending,
+                OrderItems = new List<OrderItem>()
+            };
+
+            foreach (var cartItem in cart.CartItems)
+            {
+                var product = await _context.Products.FindAsync(cartItem.ProductId); // Changed from Inventory
+                if (product == null) continue;
+
+                order.OrderItems.Add(new OrderItem
+                {
+                    ProductId = cartItem.ProductId,
+                    Quantity = cartItem.Quantity,
+                    UnitPrice = product.Price
+                });
+            }
+
+            _context.Orders.Add(order);
+            _context.CartItems.RemoveRange(cart.CartItems);
             await _context.SaveChangesAsync();
-            return CreatedAtAction(nameof(GetCart), new { id = newItem.CartItemId }, newItem);
+
+            return Ok(new { message = "Order placed successfully", order });
         }
 
-        // PATCH: api/Cart/UpdateItem/5
-        [HttpPatch("UpdateItem/{id}")]
-        [Authorize(Roles = "Admin,Employee,Customer")]
-        public async Task<IActionResult> UpdateCartItem(int id, [FromBody] CartItem updatedItem)
+        [HttpGet("orders")]
+        public async Task<ActionResult<IEnumerable<Order>>> GetOrders()
         {
-            var existingItem = await _context.CartItems.FindAsync(id);
-            if (existingItem == null)
+            var username = User.Identity?.Name;
+            if (string.IsNullOrEmpty(username))
             {
-                return NotFound("Cart item not found");
+                return BadRequest(new { error = "User is not authenticated" });
             }
-            existingItem.Quantity = updatedItem.Quantity;
-            await _context.SaveChangesAsync();
-            return Ok("Cart item updated successfully");
+
+            var customer = await _context.Customers.FirstOrDefaultAsync(c => c.email == username);
+            if (customer == null)
+            {
+                return BadRequest(new { error = "Customer not found" });
+            }
+
+            var orders = await _context.Orders
+                                .Include(o => o.OrderItems)
+                                .Where(o => o.CustomerId == customer.customerId)
+                                .ToListAsync();
+
+            return Ok(orders);
         }
 
-        // DELETE: api/Cart/RemoveItem/5
-        [HttpDelete("RemoveItem/{id}")]
-        [Authorize(Roles = "Admin,Employee,Customer")]
-        public async Task<IActionResult> RemoveCartItem(int id)
+
+        [HttpPatch("orders/{orderId}")]
+        public async Task<IActionResult> UpdateOrderStatus(int orderId, [FromBody] OrderStatusUpdateDto statusDto)
         {
-            var item = await _context.CartItems.FindAsync(id);
-            if (item == null)
+            var order = await _context.Orders.FindAsync(orderId);
+            if (order == null)
             {
-                return NotFound("Cart item not found");
+                return NotFound(new { error = "Order not found" });
             }
-            _context.CartItems.Remove(item);
+
+            order.Status = statusDto.Status;
             await _context.SaveChangesAsync();
-            return Ok("Cart item removed successfully");
+
+            return Ok(new { message = "Order status updated successfully", order });
+        }
+
+        [HttpGet("orders/{orderId}/invoice")]
+        public async Task<IActionResult> GetInvoice(int orderId)
+        {
+            var order = await _context.Orders
+                                      .Include(o => o.OrderItems)
+                                      .ThenInclude(oi => oi.Product)
+                                      .FirstOrDefaultAsync(o => o.OrderId == orderId);
+            if (order == null)
+            {
+                return NotFound(new { error = "Order not found" });
+            }
+
+            var invoice = new InvoiceDto
+            {
+                OrderId = order.OrderId,
+                OrderDate = order.OrderDate,
+                CustomerName = (await _context.Customers.FindAsync(order.CustomerId))?.name,
+                Items = order.OrderItems.Select(oi => new InvoiceItemDto
+                {
+                    ProductName = oi.Product.Name, // Updated field
+                    Quantity = oi.Quantity,
+                    UnitPrice = oi.UnitPrice,
+                    TotalPrice = oi.UnitPrice * oi.Quantity
+                }).ToList(),
+                SubTotal = order.OrderItems.Sum(oi => oi.UnitPrice * oi.Quantity),
+                Tax = order.OrderItems.Sum(oi => oi.UnitPrice * oi.Quantity) * 0.1M,
+                GrandTotal = order.OrderItems.Sum(oi => oi.UnitPrice * oi.Quantity) * 1.1M
+            };
+
+            return Ok(invoice);
         }
     }
 }

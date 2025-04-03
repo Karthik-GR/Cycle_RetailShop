@@ -31,7 +31,7 @@ namespace backend.Controllers
         [Authorize(Roles = "Admin")]
         public async Task<ActionResult<Inventory>> AddInventory([FromForm] InventoryCreateDto dto)
         {
-            Console.WriteLine($"Received data: CycleName={dto.CycleName}, Brand={dto.Brand}, Type={dto.Type}, Price={dto.Price}, StockQuantity={dto.StockQuantity}");
+            Console.WriteLine($"Received data: CycleName={dto.CycleName}, Brand={dto.Brand}, Type={dto.Type}, Price={dto.Price}, StockQuantity={dto.StockQuantity}, Description={dto.Description}");
             if (dto.ImageFile == null || dto.ImageFile.Length == 0)
             {
                 return BadRequest("Image file is required");
@@ -47,7 +47,8 @@ namespace backend.Controllers
                 Type = dto.Type,
                 Price = dto.Price,
                 StockQuantity = dto.StockQuantity,
-                ImageFile = memoryStream.ToArray()
+                ImageFile = memoryStream.ToArray(),
+                Description=dto.Description
             };
 
             _context.Inventories.Add(inventory);
@@ -74,6 +75,8 @@ namespace backend.Controllers
                 await dto.ImageFile.CopyToAsync(memoryStream);
                 inventory.ImageFile = memoryStream.ToArray();
             }
+
+            if (!string.IsNullOrEmpty(dto.Description)) inventory.Description = dto.Description;
 
             await _context.SaveChangesAsync();
             return Ok(new { message = "Inventory updated successfully", inventory });

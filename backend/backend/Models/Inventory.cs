@@ -23,6 +23,9 @@ namespace backend.Models
         [Required]
         public int StockQuantity { get; set; }
 
+        [Required]
+        public string Description { get; set; }
+
         //[Required]
         //public DateTime AddedDate { get; set; } = DateTime.UtcNow;
 
@@ -49,5 +52,29 @@ namespace backend.Models
         public int CycleTypeId { get; set; }
         [Required] public string CycleTypeName { get; set; }
 
+    }
+
+    public class Accessory
+    {
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int AccessoryId { get; set; }
+
+        [Required]
+        public string AccessoryName { get; set; }
+
+        [Required]
+        public string Brand { get; set; }
+
+        [Required]
+        public string Type { get; set; }
+
+        public decimal? Price { get; set; }
+
+        public int? StockQuantity { get; set; }
+        public byte[] ImageFile { get; set; }
+
+        [Required]
+        public string Description { get; set; }
     }
 }

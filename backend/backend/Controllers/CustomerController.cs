@@ -19,7 +19,6 @@ namespace backend.Controllers
             _context = context;
         }
 
-        // GET: api/Customer
         [HttpGet]
         [Authorize(Roles = "Admin,Employee")]
         public async Task<ActionResult<IEnumerable<Customer>>> GetCustomers()
@@ -27,7 +26,6 @@ namespace backend.Controllers
             return await _context.Customers.ToListAsync();
         }
 
-        // GET: api/Customer/5
         [HttpGet("{id}")]
         [Authorize(Roles = "Admin,Employee")]
         public async Task<ActionResult<Customer>> GetCustomer(int id)
@@ -40,7 +38,6 @@ namespace backend.Controllers
             return customer;
         }
 
-        // POST: api/Customer
         [HttpPost]
         [Authorize(Roles = "Admin")]
         public async Task<ActionResult<Customer>> AddCustomer([FromBody] Customer customer)
@@ -63,7 +60,6 @@ namespace backend.Controllers
         }
 
 
-        // PATCH: api/Customer/5
         [HttpPatch("{id}")]
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> UpdateCustomer(int id, [FromBody] Customer customer)
@@ -83,7 +79,6 @@ namespace backend.Controllers
                 }
             }
 
-            // Update only if new values are provided
             existingCustomer.name = string.IsNullOrWhiteSpace(customer.name) ? existingCustomer.name : customer.name;
             existingCustomer.email = string.IsNullOrWhiteSpace(customer.email) ? existingCustomer.email : customer.email;
             existingCustomer.phoneNumber = customer.phoneNumber == 0 ? existingCustomer.phoneNumber : customer.phoneNumber;
@@ -93,7 +88,6 @@ namespace backend.Controllers
             return Ok("Customer updated successfully");
         }
 
-        // DELETE: api/Customer/5
         [HttpDelete("{id}")]
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> DeleteCustomer(int id)
